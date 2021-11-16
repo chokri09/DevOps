@@ -7,7 +7,7 @@ services:
       - MYSQL_PASSWORD=root
       - MYSQL_DATABASE=springdb
     ports:   
-      - "3307:3306"
+      - "3309:3306"
   springboot-docker-container:
     image: springboot-docker-container
     ports:
