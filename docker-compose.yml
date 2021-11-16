@@ -1,4 +1,4 @@
-version: '19.03.1'
+version: '20.10.10'
 services:
   mysql-standalone:
     image: 'mysql:5.7'
@@ -7,7 +7,7 @@ services:
       - MYSQL_PASSWORD=root
       - MYSQL_DATABASE=springdb
     ports:   
-      - "3308:3306"
+      - "3307:3306"
   springboot-docker-container:
     image: springboot-docker-container
     ports:
